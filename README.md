@@ -136,28 +136,6 @@ if (h instanceof Berenang) {
 
 ---
 
-## Abstract Class vs Interface
-
-| Aspek | Abstract Class | Interface |
-|---|---|---|
-| Kata kunci | `abstract class` + `extends` | `interface` + `implements` |
-| Jumlah yang bisa diwarisi | Hanya 1 | Boleh lebih dari 1 |
-| Atribut & constructor | Boleh | Tidak ada constructor (atribut hanya konstanta) |
-| Method | Boleh abstract dan boleh sudah ada isinya | Pada dasarnya abstract (isi hanya lewat `default`/`static`) |
-| Dipakai untuk | Hubungan "adalah" (*is-a*): Kucing **adalah** Hewan | Kemampuan "bisa" (*can-do*): Bebek **bisa** Berenang |
-| Contoh di program | `Hewan` | `Berenang` |
-
----
-
-## Cara Menjalankan
-
-Pastikan JDK sudah terpasang, lalu dari folder yang berisi semua file `.java`:
-
-```bash
-javac *.java
-java Main
-```
-
 ## Contoh Output
 
 ```
