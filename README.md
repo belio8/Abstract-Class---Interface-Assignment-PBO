@@ -1,7 +1,5 @@
 # Abstract Class & Interface — Tugas PBO
 
-Contoh program Java sederhana yang menunjukkan **abstract class**, **interface**, **inheritance**, dan **polymorphism**. Setiap class ditulis di file terpisah, sesuai prinsip OOP.
-
 ## Struktur File
 
 ```
